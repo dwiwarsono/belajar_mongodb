@@ -28,4 +28,4 @@ Cara Membuat Database Baru
 - db.siswa.find({}) //Melihat isi data pada collection
 - db.siswa.find({}).pretty() //Melihat isi data secara rapih
 
-GUI MongoDb -> mongodb compass
+GUI MongoDb -> mongodb compass https://www.mongodb.com/download-center/compass?jmp=docs
