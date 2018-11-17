@@ -15,3 +15,17 @@ Keuntungan
 - Schalability
 - Object Oriented Database
 - Agile
+
+
+Cara Membuat Database Baru
+
+- use NAMADATABASE
+- db
+- show dbs //Melihat database
+- db.createCollection("NAMA COLLECTION/TABEL") //Membuat Collection/Tabel
+- show collections (Melihat collection/tabel) //Melihat collection
+- db.siswa.insert({name: 'Dwi', kelas: 'Javascript', trainer: 'Fad'}) //Memasukan data ke collection
+- db.siswa.find({}) //Melihat isi data pada collection
+- db.siswa.find({}).pretty() //Melihat isi data secara rapih
+
+GUI MongoDb -> mongodb compass
